@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="loginheading">
+            <h1 style="margin: 30px 0px 0px 20px; color: white;">Register</h1>
+            <p style="margin: 20px 0px 0px 20px; color: white;">Please register by email</p>
+          </div>
+
+        <form id="registrationForm">
+            <div class="sigIn_container">
+            <label for="username">
+            <img src="svg image/UserName.svg" alt="Alternative text for the image" style="height: 35px; ">
+            Username</label>
+            <input type="text" id="username" name="username" placeholder="Please enter your username" required>
+            <span id="username-error"></span>
+
+
+            <label for="email">
+            <img src="svg image/Gmail1.svg" alt="Alternative text for the image" style="height: 35px; ">
+            Email</label>
+            <input type="email" id="email" name="email" placeholder="Please input your email" required>
+            <span id="email-error"></span>
+
+
+            <label for="password">
+            <img src="svg image/Password.svg" alt="Alternative text for the image" style="height: 35px;">
+            Password</label>
+            <input type="password" id="password" name="password" placeholder="Set password" required>
+            <span id="password-error"></span>
+
+
+            <label for="confirmPassword">
+            <img src="svg image/Password.svg" alt="Alternative text for the image" style="height: 35px;">
+            Confirm Password</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" placeholder="confirm Password" required>
+            <span id="confirm-password-error"></span>
+
+
+
+            <div class="sigIn_container_Button" style="width: 100%;height: 129px;background-color: #f6f6f8; margin-top: 20px;">
+                <button type="submit"style="text-decoration: none;">
+                   Register
+                </button> 
+    
+                 <button type="login" id="login-button"style="text-decoration: none;">
+                    <a href="login.html" style="text-decoration: none;color: #ff6c6c;">
+                     Login
+                    </a>
+                  </button> 
+            </div>
+        </form>
+
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
